@@ -1,4 +1,49 @@
 .news h3 {
     text-align: center;
-    
+    color: var(--color-copy);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.news h4 {
+    background-color: rgb(100, 100, 100);
+    width: 7rem;
+    height: .4rem;
+    margin: .5rem auto;
+}
+
+.news__cards {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.news__card {
+    width: 20rem;
+    height: 27.5rem;
+    border: solid 2px #e8f0f8;
+    box-shadow: 0px 0px 10px 5px #e8f0f8;
+}
+
+.news__card img {
+    width: 19.75rem;
+}
+
+.news__card p {
+    padding: 0 2rem;
+    font-size: .85rem;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+.news__card a {
+    margin-left: 13.5rem;
+    color: var(--color-copy);
+    font-weight: 600;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+.fa-chevron-right {
+    padding-left: 1rem;
 }
