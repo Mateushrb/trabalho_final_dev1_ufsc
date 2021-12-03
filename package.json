@@ -1,0 +1,27 @@
+{
+  "name": "trabalho_final_dev1_ufsc",
+  "version": "1.0.0",
+  "description": "Trabalho final do curso de Desenvolvedor nível 1 da Prefeitura Municipal de Florianópolis em parceria com a Universidade Federal de Santa Catarina",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateushrb/trabalho_final_dev1_ufsc.git"
+  },
+  "keywords": [
+    "web",
+    "page"
+  ],
+  "author": "Mateus Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateushrb/trabalho_final_dev1_ufsc/issues"
+  },
+  "homepage": "https://github.com/Mateushrb/trabalho_final_dev1_ufsc#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
