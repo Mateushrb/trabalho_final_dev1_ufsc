@@ -1,0 +1,39 @@
+.navbar {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 3rem;
+    font-size: 2.375rem;
+    color: #ffffff;
+}
+
+.logo span {
+    text-transform: uppercase;
+    color: rgb(200, 200, 300);
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar__links li {
+    font-size: 1rem;
+    margin-right: 3rem;
+}
+
+.navbar__links li a {
+    color: #ffffffff;
+    text-decoration: none;
+}
