@@ -79,6 +79,8 @@
 }
 
 .newsletter {
+    width: 80rem;
+    margin: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -134,4 +136,49 @@
 #btn-newsletter:active {
     background-color: rgb(200, 200, 300); 
     transition: 0s;
+}
+
+/* Testimonials */
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.testimonial__card {
+    text-align: center;
+    width: 50rem;
+}
+
+.testimonial__card h3 {
+    color: var(--color-copy);
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.testimonial__card h4 {
+    background-color: rgb(100, 100, 100);
+    width: 7rem;
+    height: .4rem;
+    margin: .5rem auto;
+}
+
+.testimonial__paragraph {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.testimonial__card span {
+    font-weight: 700;
+    color: var(--color-copy);
+    font-size: 1.5rem;
+}
+
+.testimonial__complement {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.8);
 }
