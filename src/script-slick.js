@@ -36,3 +36,11 @@ $('.news__cards').slick({
         // instead of a settings object
       ]
 });
+
+$('.testimonials__cards').slick({
+  autoplay: true,
+  autoplaySpeed: 5000,
+  pauseOnHover: true,
+  prevArrow: '.arrow_prev',
+  nextArrow: '.arrow_next'
+});
