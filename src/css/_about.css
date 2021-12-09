@@ -1,0 +1,84 @@
+.about__section {
+    margin-bottom: 3rem;
+}
+
+.about__section h3 {
+    text-align: center;
+    color: var(--color-copy);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.about__section h4 {
+    background-color: rgb(100, 100, 100);
+    width: 7rem;
+    height: .4rem;
+    margin: .5rem auto;
+}
+
+.about__paragraph {
+    width: 45rem;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.about__counter-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.about__counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.about__counter-plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__counter-plus p {
+    font-size: 4rem;
+    color: var(--color-copy);
+    margin: 0;
+    margin-right: 3rem;
+    font-weight: 700;
+}
+
+.about__counter-plus h5 {
+    width: 4rem;
+    margin-right: 3rem;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.about__counter p {
+    font-size: 4rem;
+    color: var(--color-copy);
+    margin: 0;
+    font-weight: 700;
+}
+
+.about__counter h5 {
+    width: 4rem;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.counter__line {
+    border: solid;
+    border-width: 1px;
+    color: rgba(0, 0, 0, 0.6);
+    height: 4.5rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
