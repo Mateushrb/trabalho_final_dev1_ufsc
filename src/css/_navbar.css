@@ -36,4 +36,13 @@
 .navbar__links li a {
     color: #ffffffff;
     text-decoration: none;
+    border: solid 1px rgb(200, 200, 300);
+    padding: 0.3rem;
+    border-radius: 10rem;
+    transition: .2s;
+}
+
+.navbar__links li a:hover {
+    color: rgb(200, 200, 300);
+    background-color: rgba(123, 169, 255, 0.568);
 }
