@@ -19,3 +19,7 @@ body {
 .h1__link {
     text-decoration: none;
 }
+
+.select__page {
+    font-weight: 700;
+}

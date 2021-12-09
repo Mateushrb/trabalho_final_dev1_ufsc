@@ -1,0 +1,35 @@
+.features h3 {
+    text-align: center;
+    color: var(--color-copy);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.features h4 {
+    background-color: rgb(100, 100, 100);
+    width: 7rem;
+    height: .4rem;
+    margin: .5rem auto;
+}
+
+.feature__images {
+    padding: 2rem;
+    background-color: var(--color-copy);
+}
+
+.features__contents {
+    display: flex;
+    justify-content: center;
+}
+
+.feature__content {
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+.feature__content p {
+    width: 18rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: rgba(0, 0, 0, 0.8);
+}
