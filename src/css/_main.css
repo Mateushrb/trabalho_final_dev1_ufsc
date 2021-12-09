@@ -1,4 +1,8 @@
 /* Latest News */
+.news {
+    padding-top: 3rem;
+}
+
 .news h3 {
     text-align: center;
     color: var(--color-copy);
