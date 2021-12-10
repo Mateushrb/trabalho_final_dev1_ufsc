@@ -1,0 +1,112 @@
+.contact {
+    background-color: #f5f5f5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contact h3 {
+    text-align: center;
+    color: var(--color-copy);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contact h4 {
+    background-color: rgb(100, 100, 100);
+    width: 7rem;
+    height: .4rem;
+    margin: .5rem auto;
+}
+
+.contact__container {
+    padding: 0 5rem;
+}
+
+.contact__name {
+    display: flex;
+}
+
+.contact__content p {
+    margin: 0;
+    font-size: 1.4rem;
+    color: var(--color-copy);
+    font-weight: 700;
+    letter-spacing: 0.08rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.first-name {
+    width: 30rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: unset;
+    box-shadow: 2px 2px 7px 3px #d5e1eb;
+    outline-color: var(--color-copy);
+}
+
+.last-name__title {
+    padding-left: 2rem;
+}
+
+.last-name {
+    width: 30rem;
+    margin-left: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: unset;
+    box-shadow: 2px 2px 7px 3px #d5e1eb;
+    outline-color: var(--color-copy);
+}
+
+.subject {
+    width: 62rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: unset;
+    box-shadow: 2px 2px 7px 3px #d5e1eb;
+    outline-color: var(--color-copy);
+}
+
+.message {
+    width: 62rem;
+    height: 10rem;
+    font-size: 1rem;
+    border: unset;
+    box-shadow: 2px 2px 7px 3px #d5e1eb;
+    outline-color: var(--color-copy);
+}
+
+.contact__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__reset {
+    color: var(--color-copy);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    padding: 0.7rem;
+    border: unset;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contact__submit {
+    color: var(--color-copy);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    padding: 0.7rem;
+    border: unset;
+    background-color: var(--color-copy);
+    color: #fff;
+    cursor: pointer;
+}
+
+textarea::-webkit-resizer {
+    background-image: url(../images/resizer_16X16.png);
+}
